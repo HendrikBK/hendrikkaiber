@@ -1,0 +1,82 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1,
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h2 + p {
+    text-align: center;
+}
+
+table{
+    margin: auto;
+}
+
+tbody tr td + td{
+    padding-left: 1em;
+}
+
+td.title {
+    font-style: italic;
+}
+
+ul#se-books {
+    margin: auto 2em auto 2em;
+    /*width: fit-content;*/
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(auto-fill, 10em);
+    gap: 1em;
+    list-style-type: none;
+}
+
+ul#se-books li {
+    text-align: center;
+}
+
+ul#se-books li div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+ul#se-books li div p {
+    text-align: center;
+}
+
+p.title {
+    font-style: italic;
+    margin-bottom: 0.75em;
+}
+
+p.author {
+    font-size: smaller;
+    font-variant: small-caps;
+    margin-top: 0.75em;
+}
+
+img {
+    width: 10em;
+    aspect-ratio: 2 / 3;
+    z-index: -1;
+    border-radius: 5px;
+}
+
+section + section {
+    margin-top: 3em;
+}
+
+th {
+    text-align: center;
+    padding-left: 1em;
+}
+
+tr td:nth-of-type(3),
+tr td:last-of-type {
+    text-align: center;
+    padding-left: 1em;
+}

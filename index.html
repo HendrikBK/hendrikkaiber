@@ -1,0 +1,71 @@
+---
+layout: default
+title: Books
+---
+<main>
+<h1>Books that I helped produce</h1>
+    <section id="se">
+
+<header>
+    <h2>Standard Ebooks</h2>
+    <p>Books I have produced for <a href="https://standardebooks.org/">Standard Ebooks</a> ({{ site.data.se.size }} books).</p>
+</header>
+
+<ul id="se-books">
+    {% for book in site.data.se %}
+    <li>
+        <a href="{{ book.link }}">
+            <img src="./assets/se/images/{{ book.image }}" alt="">
+            <div>
+                <p class="title">{{ book.title }}</p>
+                <p class="author">{{ book.author }}</p>
+            </div>
+        </a>
+    </li>
+    {% endfor %}
+</ul>
+</section>
+<section id="dp">
+    <header>
+        <h2>Distributed Proofreaders</h2>
+        <p>Books I helped produce for <a href="https://www.pgdp.net/c/">Distributed Proofreaders</a> ({{ site.data.dp.size }} projects)</p>
+    </header>
+<table>
+    <thead>
+        <th>Title</th>
+        <th>Author</th>
+        <th>Managed</th>
+        <th>Post-Processed</th>
+    </thead>
+    <tbody>
+        {% for book in site.data.dp %}
+        <tr>
+            <td><a href="{{ book.link }}">{{ book.title }}</a></td>
+            <td>{{ book.author }}</td>
+            <td>{% if book.manage == true %}✓{% endif %}</td>
+            <td>{% if book.pp == true %}✓{% endif %}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+</section>
+<section id="gutenberg">
+    <header>
+        <h2>Project Gutenberg</h2>
+        <p>Books that I uploaded directly to <a href="https://www.gutenberg.org/">Project Gutenberg</a> ({{ site.data.gutenberg.size }} {% if site.data.gutenberg.size == 1 %}Book{% else %}Books{% endif %})</p>
+    </header>
+<table>
+    <thead>
+        <th>Title</th>
+        <th>Author</th>
+    </thead>
+    <tbody>
+        {% for book in site.data.gutenberg %}
+        <tr>
+            <td><a href="{{ book.link }}">{{ book.title }}</a></td>
+            <td>{{ book.author }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+</section>

@@ -1,0 +1,102 @@
+- title: Tarka the Otter
+  link: https://www.gutenberg.org/ebooks/75899
+  author: Henry Williamson
+  manage: false
+  pp: true
+
+- title: Blind Mice
+  link: https://www.gutenberg.org/ebooks/76357
+  author: <abbr title="Cyril">C.</abbr> Kay Scott
+  manage: true
+  pp: true
+
+- title: The Three Sphinxes, and Other Poems
+  link: https://www.gutenberg.org/ebooks/76846
+  author: George Sylvester Viereck
+  manage: false
+  pp: true
+
+- title: Saïd the Fisherman
+  link: https://www.gutenberg.org/ebooks/77078
+  author: Marmaduke Pickthall
+  manage: true
+  pp: true
+
+- title: The Wilderness Hunter
+  link: https://www.gutenberg.org/ebooks/77136
+  author: Theodore Roosevelt
+  manage: false
+  pp: true
+
+- title: Poems, Scots and English
+  link: https://www.gutenberg.org/ebooks/77335
+  author: John Buchan
+  manage: true
+  pp: false
+
+- title: American Medicinal Barks
+  link: https://www.gutenberg.org/ebooks/77360
+  author: Alice Henkel
+  manage: false
+  pp: true
+
+- title: Flaxius
+  link: https://www.gutenberg.org/ebooks/77376
+  author: Charles Godfrey Leland
+  manage: false
+  pp: true
+
+- title: The Lusiads [Vol. 1]
+  link: https://www.gutenberg.org/ebooks/77660
+  author: Luís de Camões
+  manage: true
+  pp: true
+
+- title: The Lusiads [Vol. 2]
+  link: https://www.gutenberg.org/ebooks/77661
+  author: Luís de Camões
+  manage: true
+  pp: true
+
+- title: Yiddish Short Stories
+  link: https://www.gutenberg.org/ebooks/77680
+  author: Various
+  manage: false
+  pp: true
+
+- title: Outward Bound
+  link: https://www.gutenberg.org/ebooks/77696
+  author: Sutton Vane
+  manage: false
+  pp: true
+
+- title: The Voyage of the Norman <abbr title="">D.</abbr>
+  link: https://www.gutenberg.org/ebooks/77795
+  author: Barbara Newhall Follett
+  manage: true
+  pp: true
+
+- title: Sinbad
+  link: https://www.gutenberg.org/ebooks/77919
+  author: <abbr title="Cyril">C.</abbr> Kay Scott
+  manage: true
+  pp: true
+
+- title: The Gold of Ophir
+  link: https://www.gutenberg.org/ebooks/77959
+  author: <abbr title="David">D.</abbr> Howard Gwinn
+  manage: false
+  pp: true
+
+- title: Beppo
+  link: https://www.gutenberg.org/ebooks/78089
+  author: Carlo Collodi
+  manage: true
+  pp: false
+
+- title: Tales Grotesque and Curious
+  link: https://www.gutenberg.org/ebooks/78105
+  author: Akutagawa Ryūnosuke
+  translator: Glenn W. Shaw
+  manage: true
+  pp: true
