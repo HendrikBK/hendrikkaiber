@@ -1,5 +1,6 @@
 body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /*font-family: 'Courier New', Courier, monospace;*/
 }
 
 h1,
@@ -32,6 +33,7 @@ ul#se-books {
     grid-template-columns: repeat(auto-fill, 10em);
     gap: 1em;
     list-style-type: none;
+    padding-left: 0;
 }
 
 ul#se-books li {
@@ -46,6 +48,7 @@ ul#se-books li div {
 
 ul#se-books li div p {
     text-align: center;
+    height: 25px;
 }
 
 p.title {
