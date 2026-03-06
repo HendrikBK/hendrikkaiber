@@ -28,7 +28,6 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 baseurl: /hendrikkaiber
-url: https://www.hendrikkaiber.com/
 
 # Build settings
 theme: minima
