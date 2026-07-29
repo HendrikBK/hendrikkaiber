@@ -70,7 +70,7 @@
   manage: false
   pp: true
 
-- title: The Voyage of the Norman <abbr title="">D.</abbr>
+- title: The Voyage of the Norman <abbr>D.</abbr>
   link: https://www.gutenberg.org/ebooks/77795
   author: Barbara Newhall Follett
   manage: true
@@ -105,5 +105,11 @@
   link: https://www.gutenberg.org/ebooks/78120
   author: Edward Augustine Wyke-Smith
   illustrator: George Morrow
+  manage: true
+  pp: true
+
+- title: The Place Called Dagon
+  link: https://www.gutenberg.org/ebooks/79055
+  author: Herbert Gorman
   manage: true
   pp: true
