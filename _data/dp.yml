@@ -113,3 +113,9 @@
   author: Herbert Gorman
   manage: true
   pp: true
+
+- title: The Sun Virgin
+  link: https://www.gutenberg.org/ebooks/79257
+  author: Thomas Dixon <abbr title="Junior">Jr.</abbr>
+  manage: false
+  pp: true
